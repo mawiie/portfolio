@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #FAF9F6;
+  --color-ink: #1A1C1E;
+  --color-sage: #4A5D50;
+  --color-sand: #E6DFD3;
+
+  --font-serif: var(--font-playfair-display), serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --radius-3xl: 24px;
+  --radius-4xl: 32px;
+}
+
+:root {
+  --background: var(--color-parchment);
+  --foreground: var(--color-ink);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
