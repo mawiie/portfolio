@@ -17,7 +17,7 @@ export default function Home() {
     <div className="min-h-screen pt-32 pb-24 px-6 md:px-12 max-w-5xl mx-auto flex flex-col justify-center">
       <FadeInUp>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-ink leading-[1.1] tracking-tight mb-8">
-          Software Engineer, Researcher <span className="text-sage italic">&</span> AI Lab.
+          Software Engineer <span className="text-sage italic">&</span> AI Researcher.
         </h1>
       </FadeInUp>
 
